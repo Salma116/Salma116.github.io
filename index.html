@@ -4,101 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salma El Mourabet - Developpeuse en apprentissage</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="sketch.js"></script>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container">
+    <header>
         <nav>
             <ul class="listnav">
-                <li><a class="coollink" href="index.html">Accueil</a></li>
-                <li><a class="coollink" href="#titresection">Savoir-faire</a></li>
-                <li><a class="coollink" href="#mesprojets">Mes projets</a></li>
-                <li><a class="coollink" href="#contact">Contact</a></li>
-                <li><a class="coollink" href="CV-SEM.pdf" target="_blank">CV</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li>Savoir-faire</li>
+                <li>Projets</li>
+                <li>Contact</li>
+                <li>CV</li>
             </ul>
         </nav>
-
         <section id= "home">
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
             <h4 id="job">software engineer</h4>
-            <h1 id = "text">
+            <h1>
                 Salma<br> El Mourabet
             </h1>
-                
             <p id="prez">
-                Bienvenue! Je suis développeuse en apprentissage au sein de l’école d’informatique <span class="underline--magical"> <a target="_blank" id="adalink"  href="https://adatechschool.fr/"> Ada Tech Shool.</a></span>
-                Je suis disponible pour une alternance en tant que développeuse web fullstack dès juin 
-                2021 pendant un an.
+                Je suis disponible pour une alternance en tant que développeuse de juin 
+                2021 à juin 2022.<br>
+                Je suis actuellement étudiante au sein de l’école d’informatique Ada Tech 
+                School. 
             </p>
             <img id="profilpic" src="Mask Group.png" alt="image de profil">
-            <img id="stick" src="stick-beige.png" alt="sticker">
         </section>
-
-        <section>
-            <h3 id="titresection">Ce que je fais</h3>
-        </section>
-
+        <h3>Outils et créations</h3>
         <section id="outils">
+            
             <ul>
-                <li class="colonne">
-                    <img src="pen-tool.png" id="pen-tool" alt="logo pen-tool">
-                    <h5>Explorer</h5>
-                    <p>Analyse<br>Méthodes Agile<br>Conception</p>
+                <li class="outil">
+                    <h4>Outils et créations</h4>
+                    <p>github, terminal, vsc...</p>
                 </li>
-                <li class="colonne" id=colonne2>
-                    <img src="browser.png" id="browser" alt="logo browser">
-                    <h5>pages web et applications mobiles</h5>
-                    <p>HTML, CSS, Javascript,<br> Ruby, Python, PHP,<br> Cliquez ici pour voir le résultat.</p>
+                <li class="outil">
+                    <h4>Création de page web et applications mobiles</h4>
+                    <p>Création de sites personnels et à but commercial en utilisant de manière organisée HTML, CSS, Javascript.<br> Cliquez ici pour voir le résultat.</p>
                 </li>
-                <li class="colonne">
-                    <img src="smartphone.png" id="smartphone" alt="logo smartphone">
-                    <h5>Fonctionnalités et challenges</h5>
+                <li class="outil">
+                    <h4>Fonctionnalités et challenges</h4>
                     <p>Chatbot, Datavisualisation, jeux vidéo, un monde entier à découvrir en cliquant ici.</p>
                 </li>
             </ul>
         </section>  
-
-        <section id="mesprojets">
-            <h3>Mes projets</h3>
-            <section class="leprojet">
-                <div class="illustration">
-                <img id="dataviz" src="Dataviz-cam.gif" alt= "GIF du projet Datavisualisation">
-                </div>
-                    <div id="description">
-                    <h4>Projet Datavisualisation</h4>
-                    <p>HTML CSS JavaScript<br> Fait autour de la journée internationale pour l'élimination de la violence à l'égard des femmes, ce projet est un hommage aux femmes. </p>
-                    </div> 
-                </section> 
-            <section class="leprojet" id=projet2>
-                <div class="illustration">
-                <img id="bot" src="chatbot.png" alt= "petit robot chatbot">
-                </div>
-                    <div id="description">
-                    <h4>Projet Chatbot de recette de cuisine</h4>
-                    <p>Ruby<br> Notions : Chatbots, Entrées / sorties d’un script, Analyse et manipulation de chaînes de caractères, Analyse du langage naturel, Format JSON. 
-                    </p>
-                    </div>
-            </section> 
-        </section>  
-
-        <section id="contact">
-            <h3>Contact</h3>
-            <section id="email"><a href="mailto:s.elmourabet@gmail.com">s.elmourabet@gmail.com</a></section>
-            <img src="emaillogo.jpeg" id="avion" alt="avion en papier">
-            <section id="formulaire">
-                <form action="mailto:s.elmourabet@gmail.com" method="GET">
-                        <label for="name">Nom</label><br>
-                        <input type="text" id="name" placeholder="Votre nom"><br>
-                        <label for="email">Email</label><br>
-                        <input type="text" id="email" placeholder="Votre email"><br>
-                        <label for="message">Message</label><br>
-                        <input type="text" id="message" placeholder="Hello! Je serais ravie de pouvoir échanger avec vous!"><br>
-                        <input type="submit" value="Envoyer votre message" class="button"><br>       
-            </section>
-            </form>
-        </section>
     </header>
     <footer>
         <div class="contenu-footer">

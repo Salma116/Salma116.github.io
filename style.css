@@ -24,6 +24,15 @@ h5{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+a {
+    text-decoration: none;
+    color: #444;
+}
+img {
+    object-fit: fill;
+    overflow: hidden;
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -116,7 +125,7 @@ li a {
 
 }
 .underline--magical {
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-image: linear-gradient(120deg, #F8D9D0 0%, #ED4832 180%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 88%;
@@ -127,25 +136,6 @@ li a {
 
      }
      
-    /* overflow: hidden;
-    border-right: .15em solid black;
-    white-space: nowrap;
-    
-
-    animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color : black; }
-} */
 #adalink{
     text-decoration: none;
     color: #444;
@@ -153,7 +143,7 @@ li a {
 
 #profilpic {
     position: absolute; 
-    top:3em;
+    top:5em;
     left: 60%;
     padding: 5%;
     height: 35%;
@@ -223,20 +213,24 @@ ul {
 
 
 #mesprojets{
-    height: 100vh;
-    margin-bottom: 5%;
+    background-image: url("background-aesthetic-1.jpg");
+    background-size: cover; 
+    border-radius: 8px;
     margin-left: 5%;
     margin-right: 5%;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
 }
+
 .leprojet{
-    width:100%;
-    height:40%;
-    padding: 1px;
-    margin:10px;
+    width:95%;
+    height:50%;
+    margin:10px 5px;
+    display: flex;
+    flex-direction: row;
 }
-.illustration{
+.casegauche{
     float: left;
-    width: 45%;
+    margin: 3% 3%;
     height:250px;
     background: whitesmoke;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
@@ -245,9 +239,9 @@ ul {
     letter-spacing: 1px;
     padding: 15px 20px;
 }
-#description{
+#casedroite{
     float: right;
-    width: 45%;
+    margin: 3% 3%;
     height:250px;
     background: whitesmoke;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
@@ -255,6 +249,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 1px;
     padding: 15px 20px;
+    overflow: auto;
 }
 #dataviz {
     display:block;
@@ -283,7 +278,7 @@ ul {
     text-decoration: none;
 }
 #avion {
-    height:20%;
+    height:20vh;
     margin-left: 45%;
     margin-right: 50%;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
