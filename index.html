@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="jquery-3.5.1.min.js"></script>
+        <script src="js/script.js" defer></script>
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+        <header >
+            <nav class = "burger">
+                <i class="fa fa-bars fa-2x"></i> 
+    
+                <ul class="listnav">
+                    <li><a class="coollink" href="index.html">Accueil</a></li>
+                    <li><a class="coollink" href="#savoir-faire">Savoir-faire</a></li>
+                    <li><a class="coollink" href="#mesprojets">Mes projets</a></li>
+                    <li><a class="coollink" href="#contact">Contact</a></li>
+                    <li><a class="coollink" href="CV-Salma El Mourabet.pdf" target="_blank">CV</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container">
+            <section id= "home">
+                <section class="text"></section>
+                    <h4 id="job">software engineer</h4>
+                    <h1 id = "text">
+                        Salma<br> El Mourabet
+                    </h1>
+                        
+                    <p id="prez">
+                        Bienvenue! Je suis développeuse en apprentissage au sein de l’école d’informatique <span class="underline--magical"> <a target="_blank" id="adalink"  href="https://adatechschool.fr/"> Ada Tech Shool.</a></span>
+                        Je suis disponible pour une alternance en tant que développeuse web fullstack dès juin 
+                        2021 pendant un an.
+                    </p>
+                    <img id="profilpic" src="images/profil.png" alt="image de profil" >
+                    <img id="stick" src="images/stick-beige.png" alt="sticker">
+                </section>
+
+                <!-- <img class="optionnel" id="profilpic" src="images/profil.png" alt="photo de profil">  
+                <img id="stick" src="images/stick-beige.png" alt="sticker"> -->
+            </section>
+
+            
+            <section>
+                <h3 id="savoir-faire">Savoir-faire</h3>
+            </section>
+            
+            <section id="outils">
+                 <ul id="listoutils"> 
+                     <img src= "images/Vector.png" id="pastille-blanche">
+                    <li class="colonne">
+                        <img src="images/logo/pen-tool.png" id="pen-tool" alt="logo pen-tool">
+                        <h5>Explorer</h5>
+                        <p>Analyse<br>Méthodes Agile<br>Création<br>Conception<br></p>
+                    </li>
+                    <li class="colonne">
+                        <img src="images/logo/browser.png" id="browser" alt="logo browser">
+                        <h5>pages web et applications mobiles</h5>
+                        <p>HTML, CSS, Javascript,<br> Ruby, Python, PHP,<br></p>
+                    </li>
+                    <li class="colonne">
+                        <img src="images/logo/smartphone.png" id="smartphone" alt="logo smartphone">
+                        <h5>Fonctionnalités et challenges</h5>
+                        <p>Chatbot, Datavisualisation, jeux vidéo, un monde entier à découvrir!</p>
+                    </li>
+                </ul>
+            </section>  
+        </section class= container>
+       
+
+		 <div class="main">
+            <section>
+                <h3 id="mesprojets">Mes Projets</h3>
+            </section>
+			
+				<ul id="og-grid" class="og-grid">
+					<li>
+                        <a href="https://github.com/JojoDz/DataVisW" data-largesrc="images/Dataviz-cam.gif" data-title="Visualisation d'une donnée" data-description="HTML CSS JavaScript
+                        Fait autour de la journée internationale pour l'élimination de la violence à l'égard des femmes, ce projet est un hommage aux femmes.">
+							<img src="images/thumbs/data.png" alt="img datavisualisation"/>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/Salma116/ChatBot" data-largesrc="images/chatbot.png" data-title="Bot recettes de cuisine" data-description= "Notions : Chatbots, Entrées / sorties d’un script, Analyse et manipulation de chaînes de caractères, Analyse du langage naturel, Format JSON.">
+							<img src="images/thumbs/chatbot.jpg" alt="img chatbot"/>
+                        </a>
+                    </li>
+                    <li>
+						<a href="https://github.com/Salma116/Tresor" data-largesrc="images/tresor.p8.png" data-title="Jeu rétro" data-description="langage: Lua, logiciel: Pico8.">
+							<img src="images/tresor.p8.png" alt="img03"/>
+						</a>
+					</li>
+					<li>
+						<a href="https://studio.csml.dev/bots/75daed18-f4b3-4069-b44b-b40be813a250/flows/0428a256-bf27-42cd-85d4-eb44414fa13a" data-largesrc="images/csml-.png" data-title="Chatbot en csml" data-description=" langage: csml  Notion: Variables, Conditions, Opérateurs logiques, Comparaison de chaînes de caractères">
+							<img src="images/thumbs/csml.png" alt="img01"/>
+						</a>
+					</li>
+                </ul>
+                <a href="#home"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
+            
+             <section>
+                <h3 id="titresection">Contact</h3>
+            </section>
+            <section id="contact">
+                <section id="email_txt"><a href="mailto:s.elmourabet@gmail.com">s.elmourabet@gmail.com</a></section>
+                <!-- <img src="images/logo/emaillogo.jpeg" id="avion" alt="avion en papier"> -->
+                <!-- <section id="formulaire">
+                    <form action="mailto:s.elmourabet@gmail.com" method="GET">
+                            <label for="name">Nom</label><br>
+                            <input type="text" id="name" placeholder="Votre nom"><br>
+                            <label for="email">Email</label><br>
+                            <input type="text" id="email" placeholder="Votre email"><br>
+                            <label for="message">Message</label><br>
+                            <input type="text" id="message" placeholder="Hello! Je serais ravie de pouvoir échanger avec vous!"><br>
+                            <input type="submit" value="Envoyer votre message" class="button"><br>       
+                </form>
+                </section>   -->
+            </section>
+        </section>
+        <footer>
+        </div><!-- /container -->
+     
+        <div class="contenu-footer">
+        <a href="https://github.com/Salma116" target="_blank"><img class= "footerlogo" id="gitlogo" src="images/logo/GitHubLogo.png"></a> 
+        <a href="https://www.linkedin.com/in/salma-el-mourabet-a34a2a109/" target="_blank"><img class= "footerlogo" id="linkedin" src="images/logo/linkedin.png"></a>
+        </div>  
+    </footer>
+    
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+	</body>
+</html>
