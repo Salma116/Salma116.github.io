@@ -14,6 +14,7 @@
 	</head>
 	<body>
         <header >
+            <section id="menu">
             <nav class = "burger">
                 <i class="fa fa-bars fa-2x"></i> 
     
@@ -25,24 +26,25 @@
                     <li><a class="coollink" href="CV-Salma El Mourabet.pdf" target="_blank">CV</a></li>
                 </ul>
             </nav>
+        </section>
         </header>
         <section class="container">
+
             <section id= "home">
-                <section class="text"></section>
+                <img id="profilpic" src="images/profil.png" alt="image de profil" >
+                <section>
                     <h4 id="job">software engineer</h4>
-                    <h1 id = "text">
+                    <h1 id = "name">
                         Salma<br> El Mourabet
                     </h1>
                         
                     <p id="prez">
-                        Bienvenue! Je suis développeuse en apprentissage au sein de l’école d’informatique <span class="underline--magical"> <a target="_blank" id="adalink"  href="https://adatechschool.fr/"> Ada Tech School.</a></span>
+                        Bienvenue! Je suis développeuse en apprentissage au sein de l’école d’informatique <span class="underline--magical"> <a target="_blank" id="adalink"  href="https://adatechschool.fr/"> Ada Tech Shool.</a></span>
                         Je suis disponible pour une alternance en tant que développeuse web fullstack dès juin 
                         2021 pendant un an.
                     </p>
-                    <img id="profilpic" src="images/profil.png" alt="image de profil" >
-                    <img id="stick" src="images/stick-beige.png" alt="sticker">
                 </section>
-
+                <img id="stick" src="images/stick-beige.png" alt="sticker">
                 <!-- <img class="optionnel" id="profilpic" src="images/profil.png" alt="photo de profil">  
                 <img id="stick" src="images/stick-beige.png" alt="sticker"> -->
             </section>
@@ -79,7 +81,7 @@
             <section>
                 <h3 id="mesprojets">Mes Projets</h3>
             </section>
-			
+
 				<ul id="og-grid" class="og-grid">
 					<li>
                         <a href="https://github.com/JojoDz/DataVisW" data-largesrc="images/Dataviz-cam.gif" data-title="Visualisation d'une donnée" data-description="HTML CSS JavaScript
@@ -103,7 +105,10 @@
 						</a>
 					</li>
                 </ul>
-                <a href="#home"><i class="fas fa-arrow-circle-up"></i></a>
+                <section id="myBtn">
+                <a href="#menu"><img src="images/logo/top_arrow.png" alt="Scroll to top arrow" id="arrow"></a>
+                </section>
+                
             </div>
             
              <section>
@@ -112,17 +117,18 @@
             <section id="contact">
                 <section id="email_txt"><a href="mailto:s.elmourabet@gmail.com">s.elmourabet@gmail.com</a></section>
                 <!-- <img src="images/logo/emaillogo.jpeg" id="avion" alt="avion en papier"> -->
-                <!-- <section id="formulaire">
+                <section id="formulaire">
                     <form action="mailto:s.elmourabet@gmail.com" method="GET">
+                        <!-- <a href="mailto:{email}subject={subject}&body={content}">Send us an email </a>
                             <label for="name">Nom</label><br>
                             <input type="text" id="name" placeholder="Votre nom"><br>
                             <label for="email">Email</label><br>
-                            <input type="text" id="email" placeholder="Votre email"><br>
+                            <input type="email" id="email" placeholder="Votre email"><br>
                             <label for="message">Message</label><br>
-                            <input type="text" id="message" placeholder="Hello! Je serais ravie de pouvoir échanger avec vous!"><br>
+                            <input type="body" id="message" placeholder="Hello! Je serais ravie de pouvoir échanger avec vous!"><br>
                             <input type="submit" value="Envoyer votre message" class="button"><br>       
-                </form>
-                </section>   -->
+                </form> -->
+                </section> 
             </section>
         </section>
         <footer>
