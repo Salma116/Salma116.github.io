@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.07695d53.css",
-    "main.js": "/static/js/main.3c2749c4.js",
+    "main.js": "/static/js/main.4632b4b3.js",
     "static/media/demo-adahub.mov": "/static/media/demo-adahub.96280aab8d02a07bd71a.mov",
     "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/CV-salma-elmourabet.pdf": "/static/media/CV-salma-elmourabet.91d729a69feb3dac27cc.pdf",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.07695d53.css.map": "/static/css/main.07695d53.css.map",
-    "main.3c2749c4.js.map": "/static/js/main.3c2749c4.js.map"
+    "main.4632b4b3.js.map": "/static/js/main.4632b4b3.js.map"
   },
   "entrypoints": [
     "static/css/main.07695d53.css",
-    "static/js/main.3c2749c4.js"
+    "static/js/main.4632b4b3.js"
   ]
 }
